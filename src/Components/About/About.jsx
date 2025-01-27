@@ -29,8 +29,8 @@ const About = () => {
               <IoArrowForward size={30} className="mt-1" />
 
               <span className="w-96">
-                <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Python, C++ Coding
+                <h1 className="text-xl md:text-xl font-semibold leading-normal">
+                  Python, C++ Coding, C Programming , HTML, CSS
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
                   

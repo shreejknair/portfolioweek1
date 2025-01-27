@@ -3,23 +3,32 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <div id="Projects" className="p-10 md:p-24 text-white ">
-      <h1 className="text-2xl md:text-4xl text-white font-bold">Projects</h1>
-      <div className="py-12 px-8 flex flex-wrap gap-5">
+    <div id="Projects" className="min-h-screen p-10 md:p-24 text-white">
+      <h1 className="text-2xl md:text-4xl text-white font-bold text-left">
+        Projects
+      </h1>
+
+      {/* Grid Layout for Project Cards */}
+      <div className="py-12 px-8 grid grid-cols-1 md:grid-cols-2 gap-8 place-items-center">
         <ProjectCard
-          title="Blogging Website"
-          main="this is a bloggin website created in next js and used some component library used some component library"
-          
+          title="Lab Monitoring and Calibration System"
+          main="Fluid Control Research Institute"
+          link="/lab-monitoring"
         />
         <ProjectCard
-          title="Youtue Clone"
-          main="this is a bloggin website created in next js and used some component library used some component library"
-           
+          title="Remote Patient Health Monitoring System"
+          main="NSS College Of Engineering"
+          link="/remote-patient-monitoring"
         />
         <ProjectCard
-          title="Netflix Clone"
-          main="this is a blogging website created this ijsdjf l in next js and used some component library used some component library"
-           
+          title="Automatic Room Lighting System"
+          main="NSS College Of Engineering"
+          link="/room-lighting"
+        />
+        <ProjectCard
+          title="Grievance Management System"
+          main="Tarento Technologies Pvt Ltd"
+          link="/grievance-management"
         />
       </div>
     </div>

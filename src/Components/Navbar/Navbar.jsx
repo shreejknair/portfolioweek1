@@ -5,7 +5,8 @@ const Navbar = () => {
   const [showMenu, setShowmenu] = useState(true);
   return (
     <nav className="flex flex-wrap justify-between md:items-center text-white px-10 pt-6 md:px-20">
-      <span className="text-xl font-bold tracking-wide"> My Portfolio</span>
+      <span className="text-xl font-bold tracking-wide"> My Portfolio - Sreelakshmy Jayakumar</span>
+      
       
 
       <ul
